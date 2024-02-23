@@ -7,10 +7,10 @@ Repository by:
 - Noval
 
 Cara menggunakan kalkulator:
-Buka terminal atau cmd
-Buat directory
-Clone repository ini dengn menggunakan perintah "git clone https://github.com/balaantara/WebDevCollaborationProject.git"
-Buka repository yang sudah di-clone
-Pilih file calcultaor.py
-Jalankan menggunakan cmd/terminal dengan perintah "python3 calculator.py"
-Selesai
+1. Buka terminal atau cmd
+2. Buat directory
+3. Clone repository ini dengn menggunakan perintah "git clone https://github.com/balaantara/WebDevCollaborationProject.git"
+4. Buka repository yang sudah di-clone
+5. Pilih file calcultaor.py
+6. Jalankan menggunakan cmd/terminal dengan perintah "python3 calculator.py"
+7. Selesai
