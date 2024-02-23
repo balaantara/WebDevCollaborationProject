@@ -10,13 +10,17 @@ def multifly(x, y):
 def devide(x, y):
     return x / y
 
+def exponent(x, y):
+    return x / y
+
 print("Select Operation.")
 print("1. Add")
 print("2. Subtract")
 print("3. Multifly")
 print("4. Devide")
+print("5. exponent")
 
-choice = input("Enter Choice (1/2/3/4) : ")
+choice = input("Enter Choice (1/2/3/4/5) : ")
 
 num1 = int(input("Enter First Number : "))
 num2 = int(input("Enter Second Number : "))
@@ -32,12 +36,10 @@ elif choice == '3':
 
 elif choice == '4':
     print("Result =>",num1,"/",num2,"=", devide(num1, num2))
-
-elif choice == "5":
-    temp = 0
-    for i in range(num2):
-        temp+=1
-        
+    
+elif choice == '5':
+        hasil = num2 ** num1
+        print("Result =>", hasil)
 
 else:
     print("Invalid Input")
