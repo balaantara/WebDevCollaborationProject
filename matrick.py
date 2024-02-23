@@ -10,7 +10,7 @@ def matrict(n, m):
 
     print(matc)
     
-    for i ini range(len(matc)):
+    for i in range(len(matc)):
         print(matc[i])
 
 inp = list(map(int, input().split()))
