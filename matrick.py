@@ -10,4 +10,4 @@ def matrict(n, m):
         print(matc[i])
 
 inp = list(map(int, input().split()))
-matrict(inp[0], inp[1])
+matrict(inp[0], inp[1] )
