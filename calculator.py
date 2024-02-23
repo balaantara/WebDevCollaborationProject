@@ -33,5 +33,11 @@ elif choice == '3':
 elif choice == '4':
     print("Result =>",num1,"/",num2,"=", devide(num1, num2))
 
+elif choice == "5":
+    temp = 0
+    for i in range(num2):
+        temp+=1
+        
+
 else:
     print("Invalid Input")
